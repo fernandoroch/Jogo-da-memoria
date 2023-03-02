@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+
+  <title>Memory Game</title>
+</head>
+
+<body>
+  <div class="container-geral">
+    <header>
+      <span class="player"></span>
+      <span>Tempo: <span class="minutos">00</span>:<span class="timer">00</span></span>
+    </header>
+
+    <main>
+      <div class="user-config">
+        <div class="photo-user"><img src="" alt=""></div>
+        <h3 class="name ">Fernando</h3>
+        <div class="buttons">
+          <button class="inicial">Iniciar</button>
+          <button class="reiniciar">Reiniciar</button>
+        </div>
+        <h4 class="record ">Recorde de tempo</h4>
+        <span><span class="set-record-minutos">00</span>:<span class="set-record-seconds">00</span></span>
+
+        <h4 class="record">Pontuação total</h4>
+        <span class="descricao">0</span>
+      </div>
+
+      <div class="grid"></div>
+
+      <div class="geral-config">
+        <div class="logar-cadastrar">
+          <h3>Cadastre-se ou faça login <br>para acessar a pontuação global</h3>
+          <button class="game-logar">Logar/Cadastre-se</button>
+        </div>
+
+        <div class="rank-geral">
+          <div>
+            <p>todos os usuarios</p>
+          </div>
+          <button class="signOut">Sair da conta</button>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <script src="../js/game.js"></script>
+</body>
+
+</html>
